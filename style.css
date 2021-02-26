@@ -3,8 +3,13 @@
     padding: 0;
     margin: 0;
 }
+*:focus {
+    outline: none;
+}
+
 body {
     font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
 }
 .header {
     display: flex;
@@ -46,11 +51,13 @@ form i {
     padding-right: 1rem;
 }
 .mic {
+    color: grey;
     top: 1.9rem;
     right: 6rem;
     font-size: 1.5rem;
 }
 .search {
+    color: gray;
     top: 1.9rem;
     right: 3rem;
     font-size: 1.5rem;
@@ -72,4 +79,43 @@ form i {
     padding: 0.6rem 1.5rem;
     border: none;
     border-radius: 5px;
+}
+.list-links {
+    margin: 0 auto;
+}
+.list-links ul {
+    display: flex;
+    list-style: none;
+    margin-left: 10rem;
+    color: rgb(153, 152, 152);
+    font-size: 0.95rem;
+}
+.list-links li {
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+.list-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 4rem;
+}
+.list-links a {
+    text-decoration: none;
+    color: grey;
+}
+.list-links li:hover{
+    background-color: rgb(228, 228, 228);
+    border-radius: 4px;
+}
+.results-info p {
+    display: flex;
+    font-size: 0.8rem;
+    color: grey;
+    margin-left: 11.5rem;
+    padding: 1rem 0;
+}
+.results-container {
+    width: 40vw;
+    height: 100vh;
+    margin-left: 11.5rem;
 }
