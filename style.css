@@ -3,18 +3,73 @@
     padding: 0;
     margin: 0;
 }
+body {
+    font-size: 1rem;
+}
 .header {
     display: flex;
     text-align: center;
     justify-content: space-between;
+    padding: 1rem;
 }
 .top-left {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 1rem;
 }
 .logo {
     height: 2rem;
-
+}
+form {
+    padding: 1rem;
+    position: relative;
+}
+.form-input {
+    width: 45rem;
+    height: 3rem;
+    padding: 0 2rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 1px rgba(78, 78, 78, 0.3);
+}
+form i {
+    position: absolute;
+}
+.clear {
+    top: 1.9rem;
+    right: 9rem;
+    color: gray;
+    font-size: 1.5rem;
+    border-right: 2px solid rgb(187, 187, 187);
+    padding-right: 1rem;
+}
+.mic {
+    top: 1.9rem;
+    right: 6rem;
+    font-size: 1.5rem;
+}
+.search {
+    top: 1.9rem;
+    right: 3rem;
+    font-size: 1.5rem;
+}
+.sign-in-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 3rem;
+}
+.sign-in-container img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0 1rem;
+}
+.sign-in-btn {
+    color: #fff;
+    background-color: rgb(75, 122, 224);
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 5px;
 }
